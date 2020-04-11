@@ -3,11 +3,13 @@ package com.gettingstarted.tests;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import net.thucydides.core.annotations.Title;
 
 public class MessengerTest {
 	
@@ -26,7 +28,8 @@ public class MessengerTest {
 		// TODO Auto-generated method stub
 
 	}
-	
+	@Title("This is my first serenity mobile test  method!!!!!")
+	@Test
 	public static void openMessenger() throws MalformedURLException {
 		
 		DesiredCapabilities cap = new DesiredCapabilities();

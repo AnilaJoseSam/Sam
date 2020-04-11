@@ -5,6 +5,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Managed;
+import net.thucydides.core.annotations.Title;
 
 @RunWith(SerenityRunner.class)
 public class LocatorExamplesTest {
@@ -14,6 +15,7 @@ public class LocatorExamplesTest {
 
 	LocatorExamplesPage page;
 	
+	@Title("This is my first serenity grab titles test  method!!!!!")
 	@Test
 	public void tc1() throws InterruptedException{
      
