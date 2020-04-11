@@ -29,7 +29,7 @@ public class MessengerTest {
 
 	}
 	@Title("This is my first serenity mobile test  method!!!!!")
-	@Test
+	//@Test
 	public static void openMessenger() throws MalformedURLException {
 		
 		DesiredCapabilities cap = new DesiredCapabilities();
